@@ -15,7 +15,7 @@ Permitir que cada miembro trabaje en su propia rama, sin afectar el trabajo de l
 Detectar automáticamente si hay cambios incompatibles entre ramas durante una fusión.
 Ofrecer herramientas para resolver conflictos manuales, si ocurren.
 
-Aprendí que los conflictos no son errores, sino situaciones en las que Git no puede decidir cuál cambio mantener. Para resolverlos:
+Aprendimos que los conflictos no son errores, sino situaciones en las que Git no puede decidir cuál cambio mantener. Para resolverlos:
 Se revisan las marcas <<<<<<<, =======, >>>>>>> en los archivos.
 Se decide qué parte del código debe quedarse.
 Luego se guarda, se hace git add y un nuevo commit.
