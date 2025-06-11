@@ -1,9 +1,11 @@
 ¿Qué fue lo más desafiante al trabajar con ramas y fusiones en Git?
+
 Lo más desafiante fue entender cómo se separan y luego se combinan los cambios entre ramas, especialmente cuando varios
 archivos se modifican al mismo tiempo. Al principio puede ser confuso saber en qué rama estás y cómo hacer un merge sin 
 perder cambios. También, al hacer fusiones, surgieron pequeños conflictos que tuvimos que resolver manualmente.
 
 ¿Por qué es importante usar commits frecuentes con mensajes claros?
+
 Guardar el progreso paso a paso.
 Facilitar la identificación de errores si algo falla.
 Permitir deshacer o regresar a un estado anterior fácilmente.
@@ -15,8 +17,16 @@ Permitir que cada miembro trabaje en su propia rama, sin afectar el trabajo de l
 Detectar automáticamente si hay cambios incompatibles entre ramas durante una fusión.
 Ofrecer herramientas para resolver conflictos manuales, si ocurren.
 
-Aprendimos que los conflictos no son errores, sino situaciones en las que Git no puede decidir cuál cambio mantener. Para resolverlos:
+¿Qué aprendiste sobre el manejo de conflictos al fusionar ramas?
+
+Aprendimos que los conflictos no son errores, sino situaciones en las que Git no puede decidir cuál cambio mantener. 
+Para resolverlos:
 Se revisan las marcas <<<<<<<, =======, >>>>>>> en los archivos.
 Se decide qué parte del código debe quedarse.
 Luego se guarda, se hace git add y un nuevo commit.
 Esto nos enseñó a trabajar con más atención y comunicación con el equipo para evitar editar las mismas partes del código al mismo tiempo.
+
+¿En qué tipo de proyectos (personales o académicos) te gustaría aplicar Git desde ahora?
+Usar Git en:
+Proyectos personales, como pequeños programas o sitios web, para mantener versiones y aprender de mis avances.
+Trabajos académicos en grupo, especialmente donde se escribe código o documentos colaborativos (como informes en LaTeX o proyectos de programación), para organizar el trabajo y colaborar de forma más eficiente.
